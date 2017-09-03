@@ -21,7 +21,7 @@ namespace Problem1c_
             Console.ReadKey();
             Console.WriteLine("This program will see what two number is bigger");
             
-            Console.WriteLine("Please enter number 1");     //Will convert var to int after user enter 1st value
+            Console.WriteLine("Please enter number 1");     //Will convert var to int after user enter 1st value it will also store users input
             var number1 = int.TryParse(Console.ReadLine(), out int input);
 
             Console.WriteLine("Please enter number 2"); //Will convert var to int after user enter 2st value
